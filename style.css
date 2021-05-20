@@ -29,6 +29,7 @@ body {
 
 .textLocation {
     position: absolute;
+    left: 10px;
     top: 55px;
     height: 400px;
     width: 600px;
