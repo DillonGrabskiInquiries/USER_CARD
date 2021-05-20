@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.idContainer {
+    height: 460px;
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    outline: black solid 6px;
+}
+
+.topRectangle {
+    height: 100px;
+    width: 600px;
+    background-color: rgba(0, 195, 255, 0.904);
+    position: absolute;
+}
+
+.bottomRectangle {
+    top: 100px;
+    height: 300px;
+    width: 600px;
+    bottom: 80px;
+    position: absolute;
+}
+
+.textLocation {
+    position: absolute;
+    top: 55px;
+    height: 400px;
+    width: 600px;
+    text-align: left;
+}
+
+.profilePic {
+    top: 50px;
+    left: 20px;
+    height: 100px;
+    width: auto;
+    position: absolute;
+}
+
